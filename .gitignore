@@ -1,0 +1,52 @@
+# Gradle files
+.gradle/
+**/build/
+**/out/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/**
+
+# Local configuration
+/local.properties
+/.idea/
+*.iml
+/.cxx/
+
+# Log files
+/logs/
+*.log
+
+# Android Studio files
+/.idea/
+/captures/
+/.externalNativeBuild/
+
+# Gradle caches and logs
+.gradle/
+/build/
+/out/
+/.idea/
+
+# Android test reports
+/test-results/
+*.apk
+*.ap_
+/output.json
+
+# Generated files
+/generated/
+**/.DS_Store
+**/.env
+**/node_modules/
+
+# Firebase and Google Services
+/google-services.json
+/app/google-services.json
+
+# Miscellaneous
+*.swp
+*.swo
+*.class
+*.jar
+*.war
+*.ear
+*.zip
